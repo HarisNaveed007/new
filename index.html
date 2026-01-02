@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>SympTrace | Your Health Assistant</title>
+</head>
+<body>
+    <nav>
+        <h2 style="color:white">SympTrace</h2>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="doctors.html">Appointments</a>
+            <a href="bmi.html">Explore Wellness</a>
+            <a href="insurance.html">Insurance</a>
+			<a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <header class="main">
+        <h1>Your Health Journey Starts Here!</h1>
+        <p>Complete Medical Compass: From Specialist Care to Health Insights and Coverage.</p>
+        <button onclick="location.href='doctors.html'"data-aos="fade-up">Book Appointment Now</button>
+    </header>
+
+    <section>
+        <center><h2>Our Core Services</h2></center>
+        <div class="card-grid">
+            <div class="grid wide-format"data-aos="fade-right">
+			<div class="grid-image">
+			<img src="lab.jpg" alt="Medical Professional">
+			</div>
+			<div class="grid-content">
+        <h3>Laboratory Tests</h3>
+        <p>Over 500+ specialized tests with digital report delivery within 24 hours.</p>
+        <button onclick="location.href='doctors.html#bookingForm-Lab'"class="btn-appointment">Get Your Slot</button>
+    </div>    
+            </div>
+			<div class="grid wide-format"data-aos="fade-left">
+			<div class="grid-content">
+        <h3>24/7 Telemedicine</h3>
+        <p>Connect with top-rated physicians from the comfort of your home.</p>
+        <button onclick="location.href='doctors.html#bookingForm-os'"class="btn-appointment">Book Your Session</button>
+    </div> 
+			<div class="grid-image">
+			<img src="tele.jpg" alt="Medical Professional">
+	</div>	
+            </div>
+			<div class="grid wide-format"data-aos="fade-right">
+			<div class="grid-image">
+			<img src="pharma.jpg" alt="Medical Professional">
+			</div>
+			<div class="grid-content">
+        <h3>Pharmacy Support</h3>
+        <p>Refill prescriptions and get them delivered to your doorstep.</p>
+        <button onclick="location.href='bmi.html#bookingForm-ph'"class="btn-appointment">Order Now</button>
+    </div>    
+            </div>
+    </section>
+	<section>
+        <center><h1>About Us</h1></center>
+        <div class="card-grid">
+        </div>
+		<div class="grid wide-format"data-aos="fade-up">
+			<div class="grid-image">
+			<img src="staff.jpg" alt="Medical Professional">
+			</div>
+			<div class="grid-content">
+        <center><h2>Objective</h2>
+        <p>SympTrace is a team of passionate individuals<br>
+		dedicated to provide you best healthcare services.<br>
+		We believe early detection is key to managing chronic diseases.</p></center>
+    </div>    
+            </div>
+    </section>
+	<footer>
+        <div class="footer-logo">
+            <h2>SympTrace</h2>
+            <p class="footer-tagline">Empowering health</p>
+        </div>
+        
+        <div class="footer-links">
+            <div class="footer-column">
+                <h4>Details</h4>
+				<a href="Home.html">Home</a>
+                <a href="contact.html">Contact</a>
+            </div>
+			<div class="footer-column">
+                <h4>Platform</h4>
+                <a href="doctors.html">Appointment</a>
+				<a href="insurance.html">Insurance</a>
+				<a href="bmi.html">Explore Wellness</a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+</html>
